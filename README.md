@@ -21,7 +21,7 @@ npm install
 - navigate to **Settings** -> **Live Chat Integrations** https://anychat.one/settings/live-chat-integrations
 - click the "Add new channel" button
 - choose "API Channel"
-- enter your webhook URL. If you run server on port 1212 (default) you should enter http://YOUR_IP:1212/chat/webhook
+- enter your webhook URL. If you run server on port 1212 (default) you should enter http://YOUR_PUBLIC_IP:1212/chat/webhook
 - click the "Next" button
 - on the next step you will see your API endpoint URL. Copy that URL and paste into example.js of this project as value of API_URL variable
 - save the file and run the project
