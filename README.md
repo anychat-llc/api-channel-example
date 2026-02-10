@@ -12,7 +12,12 @@ git clone git@github.com:anychat-llc/api-channel-example.git
 cd api-channel-example
 ```
 
-2. Create API channel in Anychat
+2. Install node modules
+```
+npm install
+```
+
+3. Create API channel in Anychat
 - navigate to **Settings** -> **Live Chat Integrations** https://anychat.one/settings/live-chat-integrations
 - click the "Add new channel" button
 - choose "API Channel"
