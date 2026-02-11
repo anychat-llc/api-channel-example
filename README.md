@@ -40,7 +40,7 @@ To view and reply to the message, go to the chat section within the Anychat dash
 Reply to your message from anychat and you will immediately see the message in the project console.
 
 ### API
-To send message, send the following data to your API endpoint (https://api.anychat.one/v1/custom-channel/api?token=...)
+To send message, send the following data with **POST** request to your API endpoint (https://api.anychat.one/v1/custom-channel/api?token=...)
 ```
 {
     action: 'message',                          // only 'message' supports at this moment. We will add other stuff (like reactions, ackStatus) later
